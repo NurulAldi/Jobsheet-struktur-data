@@ -21,16 +21,15 @@
 
 <code style="color : aquamarine;">Array</code> merupakan kumpulan nilai dengan tipe data yang sama, yang dimana masing masing elemen di dalam array ini diberikan indeks, elemen yang terdapat pada array dapat diakses menggunakan indeks dari elemen yang terkait. <br><br>
 
-<img src="asset/array.png">
+<img src="asset/arr.png" width="550" height="175"> <br><br>
 
 <code style="color : aquamarine;">Pointer</code> merupakan variabel yang berisi alamat memory dari variable yang memiliki nilai tertentu. Deklarasi variable pointer mirip dengan variabel biasa hanya saja ditambahkan tanda "*" yang disebut <b>asterisk</b> di depan nama variabel tersebut, tanda asterisk ini juga dapat digunakan untuk mengakses nilai dari variabel yang telah ditunjuk oleh variabel pointer. <br><br>
 
-<img src="asset/pointer.png" width="750" height="250">
-
+<img src="asset/pointer.png" width="550" height="175"> <br><br>
 
 <code style="color : aquamarine;">Struct</code> adalah kumpulan variabel bertipe data berbeda-beda yang terletak di dalam satu nama objek, programmer perlu menentukan terlebih dahulu tipe data dari variabel yang ada di dalam struct sebelum mendeklarasikan struct, setelah itu struct dapat dideklarasikan menggunakan keyword "struct" atau "typedef struct".
 
-<img src="asset/struct.png">
+<img src="asset/struct.png" width="550" height="175"> <br><br>
 
 
 </details>
