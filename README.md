@@ -6,7 +6,11 @@
 	
 ----
 
-<code style="color : aquamarine;">Struktur data</code> adalah sebuah cara mengatur, menyimpan, dan menyusun data di dalam media penyimpanan sebuah komputer sehingga data tersebut dapat digunakan secara efisien. <br><br> Dalam pemrograman, struktur data juga berarti tata letak data yang berisi kolom-kolom data, baik itu kolom yang tampak oleh pengguna ataupun yang tidak tampak, setiap baris dari kolom tersebut disebut sebagai record (catatan), memungkinkan bagi kolom untuk berubah secara dinamis sesuai input user dan mungkin juga untuk tetap. <br><br> Jobsheet ini juga menjelaskan kategori type data secara garis besar yaitu : <br> <b>1.Type data sederhana tunggal</b>, misalnya integer, real, boolean dan karakter. <br> <b>2.Type data sederhana majemuk</b>, misalnya string yang berupa kumpulan data char.</details> <br>
+<code style="color : aquamarine;">Struktur data</code> adalah sebuah cara mengatur, menyimpan, dan menyusun data di dalam media penyimpanan sebuah komputer sehingga data tersebut dapat digunakan secara efisien. <br>
+
+<img src="asset/struktur-data.jpeg">
+
+<br><br> Jobsheet ini juga menjelaskan kategori type data secara garis besar yaitu : <br> <b>1.Type data sederhana tunggal</b>, misalnya integer, real, boolean dan karakter. <br> <b>2.Type data sederhana majemuk</b>, misalnya string yang berupa kumpulan data char.</details> <br>
 
 ----
 
