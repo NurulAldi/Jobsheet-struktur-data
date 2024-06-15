@@ -10,7 +10,7 @@
 
 <img src="asset/struktur-data.jpeg">
 
-<br><br> Jobsheet ini juga menjelaskan kategori type data secara garis besar yaitu : <br> <b>1.Type data sederhana tunggal</b>, misalnya integer, real, boolean dan karakter. <br> <b>2.Type data sederhana majemuk</b>, misalnya string yang berupa kumpulan data char.</details> <br>
+<br><br> di atas merupakan contoh-contoh struktur data yang paling umum digunakan dan diketahui</details> <br>
 
 ----
 
