@@ -15,13 +15,25 @@
 ----
 
 <details><summary>
-<h2><img src="https://media2.giphy.com/media/0TtX2qqpxp3pIafzio/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" >Jobsheet 2 - Array, Pointer dan Struct &nbsp;&nbsp;<img src="asset/array.png" width="30" height="30"></h2></summary>
+<h2><img src="https://media2.giphy.com/media/0TtX2qqpxp3pIafzio/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" >Jobsheet 2 - Array, Pointer dan Struct &nbsp;&nbsp;<img src="asset/array_icon.png" width="30" height="30"></h2></summary>
 
 ----
 
 <code style="color : aquamarine;">Array</code> merupakan kumpulan nilai dengan tipe data yang sama, yang dimana masing masing elemen di dalam array ini diberikan indeks, elemen yang terdapat pada array dapat diakses menggunakan indeks dari elemen yang terkait. <br><br>
+
+<img src="asset/array.png">
+
 <code style="color : aquamarine;">Pointer</code> merupakan variabel yang berisi alamat memory dari variable yang memiliki nilai tertentu. Deklarasi variable pointer mirip dengan variabel biasa hanya saja ditambahkan tanda "*" yang disebut <b>asterisk</b> di depan nama variabel tersebut, tanda asterisk ini juga dapat digunakan untuk mengakses nilai dari variabel yang telah ditunjuk oleh variabel pointer. <br><br>
-<code style="color : aquamarine;">Struct</code> adalah kumpulan variabel bertipe data berbeda-beda yang terletak di dalam satu nama objek, programmer perlu menentukan terlebih dahulu tipe data dari variabel yang ada di dalam struct sebelum mendeklarasikan struct, setelah itu struct dapat dideklarasikan menggunakan keyword "struct" atau "typedef struct".</details>
+
+<img src="asset/pointer.png" width="750" height="250">
+
+
+<code style="color : aquamarine;">Struct</code> adalah kumpulan variabel bertipe data berbeda-beda yang terletak di dalam satu nama objek, programmer perlu menentukan terlebih dahulu tipe data dari variabel yang ada di dalam struct sebelum mendeklarasikan struct, setelah itu struct dapat dideklarasikan menggunakan keyword "struct" atau "typedef struct".
+
+<img src="asset/struct.png">
+
+
+</details>
 <br>
 
 ----
