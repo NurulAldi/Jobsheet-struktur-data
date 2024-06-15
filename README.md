@@ -1,7 +1,5 @@
 
-
-<h1><img src="https://media4.giphy.com/media/rYbjgltjQzyYueGHnT/200.webp?cid=ecf05e47lgb28lxs9ulpwk1n6nflnds4oacv6l2u9nuu6v91&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" > PRAKTIKUM STRUKTUR DATA <img src="https://media4.giphy.com/media/rYbjgltjQzyYueGHnT/200.webp?cid=ecf05e47lgb28lxs9ulpwk1n6nflnds4oacv6l2u9nuu6v91&ep=v1_stickers_search&rid=200.webp&ct=s" width="100" ></h1>  
-
+<img src="asset/banner.gif">
 <h2><img src="https://media2.giphy.com/media/0TtX2qqpxp3pIafzio/200w.webp?cid=ecf05e47thn79jm53ojrhxgil8j0f5awied9j3hklv5ajh6u&ep=v1_stickers_search&rid=200w.webp&ct=s" width="100" >Jobsheet 1 - Pengenalan Struktur Data &nbsp;&nbsp;<img src="asset/struktur.png" width="30" height="30"></h2>
 <p>
 <code style="color : aquamarine;">Struktur data</code> adalah sebuah cara mengatur, menyimpan, dan menyusun data di dalam media penyimpanan sebuah komputer sehingga data tersebut dapat digunakan secara efisien. <br><br> Dalam pemrograman, struktur data juga berarti tata letak data yang berisi kolom-kolom data, baik itu kolom yang tampak oleh pengguna ataupun yang tidak tampak, setiap baris dari kolom tersebut disebut sebagai record (catatan), memungkinkan bagi kolom untuk berubah secara dinamis sesuai input user dan mungkin juga untuk tetap. <br><br> Jobsheet ini juga menjelaskan kategori type data secara garis besar yaitu : <br> <b>1.Type data sederhana tunggal</b>, misalnya integer, real, boolean dan karakter. <br> <b>2.Type data sederhana majemuk</b>, misalnya string yang berupa kumpulan data char. </p> <br><br><br><br>
