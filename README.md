@@ -50,8 +50,10 @@ Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya berikut ini : <
 
 <h2><img src="asset/Jobsheet 1.png" id="jobsheet-01"></h2>
 
+### ⭒ Struktur data
 
-<code style="color : aquamarine;">Struktur data</code> adalah sebuah cara mengatur, menyimpan, dan menyusun data di dalam media penyimpanan sebuah komputer sehingga data tersebut dapat digunakan secara efisien. <br>
+Struktur data adalah cara menyimpan, mengambil, dan menyusun data. Struktur data memungkinkan data yang ada di komputer lebih mudah diakses dan diperbarui.
+Fondasi setiap program komputer adalah data dan algoritma. Dengan algoritma, program komputer bisa menggunakan data secara efektif. Sementara struktur data ibarat kontainer yang menyimpan banyak data dengan layout tertentu. Tiap jenis struktur data memiliki layout masing-masing. <br>
 
 <img src="asset/struktur-data.jpeg">
 
