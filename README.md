@@ -22,7 +22,15 @@ Dosen Pengampu      : Randi Proska Sandra, M.Sc
 </pre></b>
 </td>
 </tr>
-</table>
+</table> <br>
+Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya berikut ini : <br><br>
+<p>
+<a href="mailto:aldiprm48@gmail.com"><img img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a> &nbsp;
+<a href="https://wa.me/081282304058"><img src="https://img.shields.io/badge/whatsapp-%2325D366.svg?style=plastic&logo=whatsapp&logoColor=white" alt="Whatsapp"/></a> &nbsp;
+<a href="https://www.linkedin.com/in/nurul-aldi-60b072265/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> &nbsp;
+<a href="https://www.instagram.com/aldiiii102/?hl=en"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=plastic&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
+
 
 
 ## 【 Daftar Jobsheet 】
@@ -166,19 +174,3 @@ Stack dapat dibuat dalam bentuk ouble Linked List ataupun Linked List, meskipun 
  
 <code style="color : aquamarine;">Depth First Search</code> adalah sebuah algoritma pencarian rekusif untuk mencari semua titik yang ada pada sebuah graph atau pohon. Tujuan dari algoritma ini adalah untuk menandai setiap vertex/tiitk yang belum dikunjungi sambil menghindari vertex yang telah dikunjungi. Proses pencarian pada DFS dilakukan pada semua sub tree dari satu cabang root terlebih dahulu sebelum menelusuri node node yang selevel. <br><br>
 <code style="color : aquamarine;">Breadth First Search</code> adalah algoritma yang melakukan pencariannya secara melebar tidak seperti Depth First Search yang melakukan pencarian sampai ke titik terdalam sebuah cabangnya terlebih dahulu, tree pada algoritma ini terbagi atas beberapa level, simpul root atau simpul paling atas adalah level 0, dan sub tree dari simpul tersebut adalah level 1, lalu sub tree dari simpul level 1 adalah level 2, begitu seterusnya. Algoritma ini akan melakukan pencari melalui level level tersebut secara berurutan dimulai dari level 0 lalu level 1 dan seterusnya. <br>
-
-----
-
-
-
-<h2><img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/ff1b5f32-9420-4dde-b2b9-ed2c0aa17459" width="100">About</h2>
-
-Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya berikut ini : 
-<p>
-	<a href="mailto:aldiprm48@gmail.com"><img img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a>
-	<a href="https://github.com/NurulAldi"><img src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"/></a>
-	<a href="https://wa.me/081282304058"><img src="https://img.shields.io/badge/whatsapp-%2325D366.svg?style=plastic&logo=whatsapp&logoColor=white" alt="Whatsapp"/></a>
-	<a href="https://www.linkedin.com/in/nurul-aldi-60b072265/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-	<a href="https://www.instagram.com/aldiiii102/?hl=en"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=plastic&logo=instagram&logoColor=white" alt="Instagram"/></a>
-</p>
-
