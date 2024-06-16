@@ -232,9 +232,14 @@ Insertion Sort adalah algoritma pengurutan yang bekerja dengan cara membandingka
 Selection Sort adalah sebuah algoritma pengurutan data yang mengurutkan data dengan cara mencari elemen terkecil pada sebuah list data yang belum terurut, lalu meletakkan elemen terkecil tersebut di paling depan dari sebuah list data. <br><br>
 Cara kerja Selection Sort : elemen pertama dari urutan ditetapkan menjadi element terkecil dan dimasukkan ke dalam variabel <b>"minimum"</b>, lalu variabel minimum dibandingkan dengan elemen kedua, jika elemen kedua lebih kecil dari "minimum" maka elemen kedua yang akan menjadi minimum, begitu seterusnya hingga akhir dari urutan, setelah setiap perulangan, "minimum" diletakkan di paling depan urutan list data. <br>
 
+<img src="asset/Selection-Sort.png">
+
+
 ### ⭒ Merge Sort
 
 Merge sort adalah salah satu algoritma pengurutan yang paling efisien. Hal ini didasarkan pada strategi memecah belah dan menaklukkan. Pengurutan gabungan terus-menerus memotong daftar menjadi beberapa subdaftar hingga masing-masing hanya memiliki satu item, lalu menggabungkan subdaftar tersebut ke dalam daftar yang diurutkan.
+
+<img src="asset/Merge-Sort.png">
 
 ----
 
@@ -245,9 +250,13 @@ Merge sort adalah salah satu algoritma pengurutan yang paling efisien. Hal ini d
 
 Shell Sort adalah sebuah algoritma pengurutan data dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan, jarak interval diantara elemen akan semakin mengecil seiring semakin banyaknya pengulangan pengurutan yang dilakukan, Shell sort memiliki beberapa formula pengurutan, yaitu : <br> <br> <b>1.Shell's original sequence : N/2, N/4, ..., 1</b> <br><b>2.Knuth's increments : 1, 4, 13, ..., (3k-1)/2.</b> <br><b>3.Sedgewick's increments : 1, 8, 23, 77, 281, 1073, 4193, 16577...4j+1+ 3·2j+ 1.</b> <br>
 
+<img src="asset/shell-sort.png">
+
 ### ⭒ Quick Sort
 
 Quick Sort merupakan sebuah algrotiman pengurutan data yang menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.Kunci dari proses quick sort adalah <b>partisi()</b>. <br>
+
+<img src="asset/Quick-Sort-Algorithm.png">
 
 ----
 
