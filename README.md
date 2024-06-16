@@ -62,12 +62,35 @@ Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya berikut ini : <
 
 <h2><img src="asset/Jobsheet 2.png" id="jobsheet-02"></h2>
 
-<code style="color : aquamarine;">Array</code> merupakan kumpulan nilai dengan tipe data yang sama, yang dimana masing masing elemen di dalam array ini diberikan indeks, elemen yang terdapat pada array dapat diakses menggunakan indeks dari elemen yang terkait. <br><br>
-<code style="color : aquamarine;">Pointer</code> merupakan variabel yang berisi alamat memory dari variable yang memiliki nilai tertentu. Deklarasi variable pointer mirip dengan variabel biasa hanya saja ditambahkan tanda "*" yang disebut <b>asterisk</b> di depan nama variabel tersebut, tanda asterisk ini juga dapat digunakan untuk mengakses nilai dari variabel yang telah ditunjuk oleh variabel pointer. <br><br>
-<code style="color : aquamarine;">Struct</code> adalah kumpulan variabel bertipe data berbeda-beda yang terletak di dalam satu nama objek, programmer perlu menentukan terlebih dahulu tipe data dari variabel yang ada di dalam struct sebelum mendeklarasikan struct, setelah itu struct dapat dideklarasikan menggunakan keyword "struct" atau "typedef struct". 
+### ⭒ Array
+Array merupakan kumpulan nilai dengan tipe data yang sama, yang dimana masing masing elemen di dalam array ini diberikan indeks, elemen yang terdapat pada array dapat diakses menggunakan indeks dari elemen yang terkait. <br>
 
+**Contoh:**
+```
+int arr[5];          // Deklarasi array integer dengan 5 elemen
+int arr2[5] = {1, 2, 3, 4, 5};  // Deklarasi dan inisialisasi array
+```
 
+### ⭒ Pointer
+Pointer merupakan variabel yang berisi alamat memory dari variable yang memiliki nilai tertentu. Deklarasi variable pointer mirip dengan variabel biasa hanya saja ditambahkan tanda "*" yang disebut <b>asterisk</b> di depan nama variabel tersebut, tanda asterisk ini juga dapat digunakan untuk mengakses nilai dari variabel yang telah ditunjuk oleh variabel pointer. <br>
 
+**Contoh:**
+```
+int x = 10;
+int *ptr = &a; // Pointer ptr menyimpan alamat memori dari variabel x
+```
+
+### ⭒ Struct
+Struct adalah kumpulan variabel bertipe data berbeda-beda yang terletak di dalam satu nama objek, programmer perlu menentukan terlebih dahulu tipe data dari variabel yang ada di dalam struct sebelum mendeklarasikan struct, setelah itu struct dapat dideklarasikan menggunakan keyword "struct" atau "typedef struct". 
+
+**Contoh:**
+```
+struct Person {
+    char name[50];
+    int age;
+    float height;
+};
+```
 
 
 <br>
@@ -78,10 +101,16 @@ Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya berikut ini : <
 
 <h2><img src="asset/Jobsheet 3.png" id="jobsheet-03"></h2>
 
-
+### ⭒ Single Linked List
  
-<code style="color : aquamarine;">Array</code> memiliki kelemahan yang berupa sifatnya yang statis yang memiliki arti bahwa data yang kita simpan pada memori harus dalam kondisi urut, terlebih lagi, ukuran dari array tidak dapat berubah selama program berjalan. Dalam pemrograman, ukuran dari sebuah objek belum dapat ditentukan selama program belum berjalan, oleh karena itu alokasi memori secara dinamis dibutuhkan agar user dapat membuat tipe data dengan ukuran berapapun sesuai kebutuhan program. <br><br>
-<code style="color : aquamarine;">Linked list</code> merupakan salah satu struktur data yang memorinya dialokasikan secara dinamis, Linked list sendiri adalah sebuah data yang berupa simpul beralamat yang saling bertaut, setiap simpul bisa menyimpan data dalam tipe char, int, string dan tipe lainnya.<br>
+Linked list merupakan salah satu struktur data yang memorinya dialokasikan secara dinamis, Linked list sendiri adalah sebuah data yang berupa simpul beralamat yang saling bertaut, setiap simpul bisa menyimpan data dalam tipe char, int, string dan tipe lainnya.<br>
+
+**Contoh:**
+```
+new_node->data = new_data;
+new_node->next = (*head_ref);
+(*head_ref) = new_node;
+```
 
 ----
 
@@ -90,11 +119,20 @@ Untuk bantuan dan pertanyaan, silahkan hubungi sosial media saya berikut ini : <
 <h2><img src="asset/Jobsheet 4.png" id="jobsheet-04"></h2>
 
 
- 
-<code style="color : aquamarine;">Double Linked List</code> merupakan linked list dengan dua pointer, jika linked list biasa/single linked list umumnya memiliki satu pointer untuk ke linked list selanjutnya, maka, double linked list memiliki dua pointer yang mana satu pointer lainnya ditujukan ke linked list sebelumnya.<br><br>
-<code style="color : aquamarine;">Double Linked List</code> memiliki beberapa kelebihan lainnya jika dibandingkan dengan single linked list, yaitu : <br>
-<b>1.Operasi penghapusan lebih efisien menggunakan pointer yang menunjuk ke simpul yang akan dihapus.</b> <br>
-<b>2.Dapat melakukan proses insert() yang lebih efisien dibandingkan single linked list.</b><br>
+### ⭒ Double Linked List
+Double Linked List merupakan linked list dengan dua pointer, jika linked list biasa/single linked list umumnya memiliki satu pointer untuk ke linked list selanjutnya, maka, double linked list memiliki dua pointer yang mana satu pointer lainnya ditujukan ke linked list sebelumnya.<br><br>
+Double Linked List memiliki beberapa kelebihan lainnya jika dibandingkan dengan single linked list, yaitu : <br>
+⭒ Operasi penghapusan lebih efisien menggunakan pointer yang menunjuk ke simpul yang akan dihapus. <br>
+⭒ Dapat melakukan proses insert() yang lebih efisien dibandingkan single linked list.<br>
+
+**Contoh:**
+```
+struct Node {
+    int data;           // Data yang disimpan pada node
+    struct Node* prev;  // Pointer ke node sebelumnya
+    struct Node* next;  // Pointer ke node berikutnya
+};
+```
 
 ----
 
