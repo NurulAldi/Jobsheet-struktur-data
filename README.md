@@ -260,9 +260,13 @@ Quick Sort merupakan sebuah algrotiman pengurutan data yang menggunakan algoritm
  
 Linear Search adalah algoritma yang mencari data dimulai dari indeks paling awal hingga indeks paling akhir dari list data, apabila ditemukan data yang sesuai dengan data yang dicari pada list data, maka pencarian akan dihentikan dan diberikan nilai return true. <br>
 
+<img src="asset/Linear.png">
+
  ### ⭒ Binary Search
 
 Binary Search merupakan sebuah algoritma pencarian yang memiliki syarat bahwa list data tempat pencarian akan dilakukan harus dalam keadaan terurut terlebih dahulu, jika tidak, pencarian tidak akan dapat dilakukan menggunakan binary search. <br>
+
+<img src="asset/binary.png">
 
 ----
 
