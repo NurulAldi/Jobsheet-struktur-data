@@ -13,7 +13,7 @@ Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplem
 <b><pre>
 <h3>
 Nama                : Nurul Aldi
-NIM                 : 23343050
+NIM                 : 23343048
 Program Studi       : Informatika
 Mata Kuliah         : Praktikum Struktur Data
 Kode Kelas          : INF1.62.2014
