@@ -6,6 +6,25 @@
 
 Repository ini bertujuan untuk menyediakan berbagai contoh program yang diimplementasikan menggunakan bahasa pemrograman C. Program-program ini dibuat berdasarkan latihan-latihan yang bersumber dari modul, sehingga dapat membantu dalam memahami konsep dan penerapan bahasa C.
 
+## 【 Biodata Mahasiswa 】
+<table>
+<tr>
+<td>
+<b><pre>
+<h3>
+Nama                : Nurul Aldi
+NIM                 : 23343050
+Program Studi       : Informatika
+Mata Kuliah         : Praktikum Struktur Data
+Kode Kelas          : INF1.62.2014
+Dosen Pengampu      : Randi Proska Sandra, M.Sc
+</h3>
+</pre></b>
+</td>
+</tr>
+</table>
+
+
 ## 【 Daftar Jobsheet 】
 ✦ [Jobsheet 1 -- Pengenalan Struktur Data](#jobsheet-01) <br>
 ✦ [Jobsheet 2 -- Array, Pointer, Structure](#jobsheet-02) <br>
