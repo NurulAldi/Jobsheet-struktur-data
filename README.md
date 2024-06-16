@@ -149,7 +149,7 @@ struct Node {
 
 <h2><img src="asset/Jobsheet 5.png" id="jobsheet-05"></h2>
  
-<code style="color : aquamarine;">Circular Linked List</code> dapat berupa single linked list atau double linked list tetapi circular linked list ini tidak mempunyai TAIL, sehingga pointer selanjutnya dari elemen terakhir mengarah kembali ke HEAD, jika circular linked list digunakan dalam bentuk double linked list, pointer sebelumnya dari HEAD akan menunjuk ke elemen terakhir. Hal inilah yang menyebabkan namanya menjadi Circular Linked List. <br>
+Circular Linked List dapat berupa single linked list atau double linked list tetapi circular linked list ini tidak mempunyai TAIL, sehingga pointer selanjutnya dari elemen terakhir mengarah kembali ke HEAD, jika circular linked list digunakan dalam bentuk double linked list, pointer sebelumnya dari HEAD akan menunjuk ke elemen terakhir. Hal inilah yang menyebabkan namanya menjadi Circular Linked List. <br>
 
 <img src="asset/Circular-linked-list.png">
 
