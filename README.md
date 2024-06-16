@@ -282,6 +282,10 @@ Tree Traversal adalah mengunjungi semua simpul yang terdapat pada tree, aktivita
 
 <h2><img src="asset/Jobsheet 13.png" id="jobsheet-13"></h2>
 
+ ### ⭒ Graph
+
+Graph adalah jenis struktur data umum yang susunan datanya tidak berdekatan satu sama lain (non-linier). Graph terdiri dari kumpulan simpul berhingga untuk menyimpan data dan antara dua buah simpul terdapat hubungan saling keterkaitan.
+
 <img src="asset/graf.png">
 
  ### ⭒ Depth First Search
