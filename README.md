@@ -191,59 +191,103 @@ Stack dapat dibuat dalam bentuk ouble Linked List ataupun Linked List, meskipun 
 
 
 <h2><img src="asset/Jobsheet 7.png" id="jobsheet-07"></h2>
+
+### ⭒ Queue
  
-<code style="color : aquamarine;">Queue</code> adalah kumpulan data yang mana data di dalamnya berbaris layaknya sebuah antrian, karena itulah Queue ini menggunkan konsep yang disebut dengan <b>FIFO (First In First Out)</b>, FIFO merupakan sebuah konsep pengaturan data dimana data yang paling awal masuk adalah yang paling awal keluar dari Queue. <br><br>
-<code style="color : aquamarine;">Queue</code> memiliki dua pointer yang menunjuk ke elemen pertama <b>FRONT</b> dan elemen terakhir <b>REAR</b> dari Queue, ketika menginisialisasi Queue, nilai FRONT dan REAR ditetapkan menjadi -1, lalu sebelum sebuah data masuk ke dalam Queue, maka nilai dari kedua variabel tersebut ditambah menjadi 0, sehingga sebuah data awal tersebut ditempatkan di indeks 0. Jika ada tambahan data yang masuk ke Queue, yang bertambah selanjutnya adalah hanya REAR saja, sedangkan FRONT akan tetap berada di data pertama.<br>
+Queue adalah kumpulan data yang mana data di dalamnya berbaris layaknya sebuah antrian, karena itulah Queue ini menggunkan konsep yang disebut dengan <b>FIFO (First In First Out)</b>, FIFO merupakan sebuah konsep pengaturan data dimana data yang paling awal masuk adalah yang paling awal keluar dari Queue. <br>
+
+<img src="asset/ill-queue.png">
+
+Queue memiliki dua pointer yang menunjuk ke elemen pertama <b>FRONT</b> dan elemen terakhir <b>REAR</b> dari Queue, ketika menginisialisasi Queue, nilai FRONT dan REAR ditetapkan menjadi -1, lalu sebelum sebuah data masuk ke dalam Queue, maka nilai dari kedua variabel tersebut ditambah menjadi 0, sehingga sebuah data awal tersebut ditempatkan di indeks 0. Jika ada tambahan data yang masuk ke Queue, yang bertambah selanjutnya adalah hanya REAR saja, sedangkan FRONT akan tetap berada di data pertama.<br>
 
 ----
 
 
 
 <h2><img src="asset/Jobsheet 8.png" id="jobsheet-08"></h2>
+
+### ⭒ Bubble Sort
  
-<code style="color : aquamarine;">Bubble Sort</code> adalah salah satu algoritma pengurutan sederhana yang bekerja dengan cara membandingkan dan menukar elemen-elemen yang berdekatan satu sama lain jika tidak berada dalam urutan yang benar. Bubble Sort membandingkan dua elemen yang berdekatan dan menukarnya jika urutannya salah. Proses ini diulang untuk setiap pasangan elemen dalam array hingga tidak ada lagi pertukaran yang dilakukan, menandakan bahwa array sudah terurut.  <br><br>
-<code style="color : aquamarine;">Insertion Sort</code> adalah algoritma pengurutan yang bekerja dengan cara membandingkan setiap elemen dalam array dengan elemen-elemen sebelumnya, lalu memasukkan elemen tersebut ke posisi yang tepat dalam array yang sudah terurut. Insertion Sort bekerja seperti saat kita menyusun kartu di tangan, di mana kita membandingkan kartu yang akan dimasukkan dengan kartu-kartu yang sudah diurutkan sebelumnya. <br>
+Bubble Sort adalah salah satu algoritma pengurutan sederhana yang bekerja dengan cara membandingkan dan menukar elemen-elemen yang berdekatan satu sama lain jika tidak berada dalam urutan yang benar. Bubble Sort membandingkan dua elemen yang berdekatan dan menukarnya jika urutannya salah. Proses ini diulang untuk setiap pasangan elemen dalam array hingga tidak ada lagi pertukaran yang dilakukan, menandakan bahwa array sudah terurut.  <br>
+
+<img src="asset/bb-sort.png">
+
+### ⭒ Insertion Sort
+
+Insertion Sort adalah algoritma pengurutan yang bekerja dengan cara membandingkan setiap elemen dalam array dengan elemen-elemen sebelumnya, lalu memasukkan elemen tersebut ke posisi yang tepat dalam array yang sudah terurut. Insertion Sort bekerja seperti saat kita menyusun kartu di tangan, di mana kita membandingkan kartu yang akan dimasukkan dengan kartu-kartu yang sudah diurutkan sebelumnya. <br>
+
+
+<img src="asset/insertion.png">
 
 ----
 
 
 
 <h2><img src="asset/Jobsheet 9.png" id="jobsheet-09"></h2>
+
+### ⭒ Selection Sort
  
-<code style="color : aquamarine;">Selection Sort</code> adalah sebuah algoritma pengurutan data yang mengurutkan data dengan cara mencari elemen terkecil pada sebuah list data yang belum terurut, lalu meletakkan elemen terkecil tersebut di paling depan dari sebuah list data. <br><br>
-<code style="color : aquamarine;">Cara kerja Selection Sort</code> : elemen pertama dari urutan ditetapkan menjadi element terkecil dan dimasukkan ke dalam variabel <b>"minimum"</b>, lalu variabel minimum dibandingkan dengan elemen kedua, jika elemen kedua lebih kecil dari "minimum" maka elemen kedua yang akan menjadi minimum, begitu seterusnya hingga akhir dari urutan, setelah setiap perulangan, "minimum" diletakkan di paling depan urutan list data. <br>
+Selection Sort adalah sebuah algoritma pengurutan data yang mengurutkan data dengan cara mencari elemen terkecil pada sebuah list data yang belum terurut, lalu meletakkan elemen terkecil tersebut di paling depan dari sebuah list data. <br><br>
+Cara kerja Selection Sort : elemen pertama dari urutan ditetapkan menjadi element terkecil dan dimasukkan ke dalam variabel <b>"minimum"</b>, lalu variabel minimum dibandingkan dengan elemen kedua, jika elemen kedua lebih kecil dari "minimum" maka elemen kedua yang akan menjadi minimum, begitu seterusnya hingga akhir dari urutan, setelah setiap perulangan, "minimum" diletakkan di paling depan urutan list data. <br>
+
+### ⭒ Merge Sort
+
+Merge sort adalah salah satu algoritma pengurutan yang paling efisien. Hal ini didasarkan pada strategi memecah belah dan menaklukkan. Pengurutan gabungan terus-menerus memotong daftar menjadi beberapa subdaftar hingga masing-masing hanya memiliki satu item, lalu menggabungkan subdaftar tersebut ke dalam daftar yang diurutkan.
 
 ----
 
 
 <h2><img src="asset/Jobsheet 10.png" id="jobsheet-10"></h2>
- 
-<code style="color : aquamarine;">Shell Sort</code> adalah sebuah algoritma pengurutan data dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan, jarak interval diantara elemen akan semakin mengecil seiring semakin banyaknya pengulangan pengurutan yang dilakukan, Shell sort memiliki beberapa formula pengurutan, yaitu : <br> <br> <b>1.Shell's original sequence : N/2, N/4, ..., 1</b> <br><b>2.Knuth's increments : 1, 4, 13, ..., (3k-1)/2.</b> <br><b>3.Sedgewick's increments : 1, 8, 23, 77, 281, 1073, 4193, 16577...4j+1+ 3·2j+ 1.</b> <br><br>
-<code style="color : aquamarine;">Quick Sort</code> merupakan sebuah algrotiman pengurutan data yang menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.Kunci dari proses quick sort adalah <b>partisi()</b>. <br>
+
+### ⭒ Shell Sort
+
+Shell Sort adalah sebuah algoritma pengurutan data dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan, jarak interval diantara elemen akan semakin mengecil seiring semakin banyaknya pengulangan pengurutan yang dilakukan, Shell sort memiliki beberapa formula pengurutan, yaitu : <br> <br> <b>1.Shell's original sequence : N/2, N/4, ..., 1</b> <br><b>2.Knuth's increments : 1, 4, 13, ..., (3k-1)/2.</b> <br><b>3.Sedgewick's increments : 1, 8, 23, 77, 281, 1073, 4193, 16577...4j+1+ 3·2j+ 1.</b> <br>
+
+### ⭒ Quick Sort
+
+Quick Sort merupakan sebuah algrotiman pengurutan data yang menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.Kunci dari proses quick sort adalah <b>partisi()</b>. <br>
 
 ----
 
 
 
 <h2><img src="asset/Jobsheet 11.png" id="jobsheet-11"></h2>
+
+
+ ### ⭒ Linear Search
  
-<code style="color : aquamarine;">Linear Search</code> adalah algoritma yang mencari data dimulai dari indeks paling awal hingga indeks paling akhir dari list data, apabila ditemukan data yang sesuai dengan data yang dicari pada list data, maka pencarian akan dihentikan dan diberikan nilai return true. <br><br>
-<code style="color : aquamarine;">Binary Search</code> merupakan sebuah algoritma pencarian yang memiliki syarat bahwa list data tempat pencarian akan dilakukan harus dalam keadaan terurut terlebih dahulu, jika tidak, pencarian tidak akan dapat dilakukan menggunakan binary search. <br>
+Linear Search adalah algoritma yang mencari data dimulai dari indeks paling awal hingga indeks paling akhir dari list data, apabila ditemukan data yang sesuai dengan data yang dicari pada list data, maka pencarian akan dihentikan dan diberikan nilai return true. <br>
+
+ ### ⭒ Binary Search
+
+Binary Search merupakan sebuah algoritma pencarian yang memiliki syarat bahwa list data tempat pencarian akan dilakukan harus dalam keadaan terurut terlebih dahulu, jika tidak, pencarian tidak akan dapat dilakukan menggunakan binary search. <br>
 
 ----
 
 
 
 <h2><img src="asset/Jobsheet 12.png" id="jobsheet-12"></h2>
+
+ ### ⭒ Tree
  
-<code style="color : aquamarine;">Tree</code> adalah struktur data yang berbentuk hierarki, Tree dapat dijelajahi dengan berbagai cara, tidak seperti linked list, queues, stack, atau array yang hanya memiliki satu jalan untuk membaca data, setiap tree adalah kombinasi dari sebuah simpul dengan 2 sub-tree. Sebuah simpul struct yang mengarah ke kanan atau ke kiri mungkin memiliki anak di kanan atau kirinya yang dinamakan sub-tree bukan sub-node/simpul.<br><br>
-<code style="color : aquamarine;">Tree Traversal</code> adalah mengunjungi semua simpul yang terdapat pada tree, aktivitas mengunjungi semua simpul ini bisa saja bertujuan untuk mencari nilai tertinggi dari tree tersebut atau menambah nilai data pada tiap simpul yang terdapat pada tree. Berdasarkan urutan penjelajahannya, tree traversal terbagi 3 yaitu : <br> <b>1.Inorder Traversal</b>. <br> <b>2.Preorder Traversal</b>. <br> <b>3.Postorder Traversal</b>. <br>
+Tree adalah struktur data yang berbentuk hierarki, Tree dapat dijelajahi dengan berbagai cara, tidak seperti linked list, queues, stack, atau array yang hanya memiliki satu jalan untuk membaca data, setiap tree adalah kombinasi dari sebuah simpul dengan 2 sub-tree. Sebuah simpul struct yang mengarah ke kanan atau ke kiri mungkin memiliki anak di kanan atau kirinya yang dinamakan sub-tree bukan sub-node/simpul.<br>
+
+<img src="asset/Tree.png">
+
+Tree Traversal adalah mengunjungi semua simpul yang terdapat pada tree, aktivitas mengunjungi semua simpul ini bisa saja bertujuan untuk mencari nilai tertinggi dari tree tersebut atau menambah nilai data pada tiap simpul yang terdapat pada tree. Berdasarkan urutan penjelajahannya, tree traversal terbagi 3 yaitu : <br> <b>1.Inorder Traversal</b>. <br> <b>2.Preorder Traversal</b>. <br> <b>3.Postorder Traversal</b>. <br>
 
 ----
 
 
 
 <h2><img src="asset/Jobsheet 13.png" id="jobsheet-13"></h2>
+
+<img src="asset/graf.png">
+
+ ### ⭒ Depth First Search
  
-<code style="color : aquamarine;">Depth First Search</code> adalah sebuah algoritma pencarian rekusif untuk mencari semua titik yang ada pada sebuah graph atau pohon. Tujuan dari algoritma ini adalah untuk menandai setiap vertex/tiitk yang belum dikunjungi sambil menghindari vertex yang telah dikunjungi. Proses pencarian pada DFS dilakukan pada semua sub tree dari satu cabang root terlebih dahulu sebelum menelusuri node node yang selevel. <br><br>
-<code style="color : aquamarine;">Breadth First Search</code> adalah algoritma yang melakukan pencariannya secara melebar tidak seperti Depth First Search yang melakukan pencarian sampai ke titik terdalam sebuah cabangnya terlebih dahulu, tree pada algoritma ini terbagi atas beberapa level, simpul root atau simpul paling atas adalah level 0, dan sub tree dari simpul tersebut adalah level 1, lalu sub tree dari simpul level 1 adalah level 2, begitu seterusnya. Algoritma ini akan melakukan pencari melalui level level tersebut secara berurutan dimulai dari level 0 lalu level 1 dan seterusnya. <br>
+Depth First Search adalah sebuah algoritma pencarian rekusif untuk mencari semua titik yang ada pada sebuah graph atau pohon. Tujuan dari algoritma ini adalah untuk menandai setiap vertex/tiitk yang belum dikunjungi sambil menghindari vertex yang telah dikunjungi. Proses pencarian pada DFS dilakukan pada semua sub tree dari satu cabang root terlebih dahulu sebelum menelusuri node node yang selevel. <br>
+
+ ### ⭒ Breadth First Search
+
+Breadth First Search adalah algoritma yang melakukan pencariannya secara melebar tidak seperti Depth First Search yang melakukan pencarian sampai ke titik terdalam sebuah cabangnya terlebih dahulu, tree pada algoritma ini terbagi atas beberapa level, simpul root atau simpul paling atas adalah level 0, dan sub tree dari simpul tersebut adalah level 1, lalu sub tree dari simpul level 1 adalah level 2, begitu seterusnya. Algoritma ini akan melakukan pencari melalui level level tersebut secara berurutan dimulai dari level 0 lalu level 1 dan seterusnya. <br>
