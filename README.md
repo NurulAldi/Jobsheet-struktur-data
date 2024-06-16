@@ -291,6 +291,16 @@ Tree adalah struktur data yang berbentuk hierarki, Tree dapat dijelajahi dengan 
 
 Tree Traversal adalah mengunjungi semua simpul yang terdapat pada tree, aktivitas mengunjungi semua simpul ini bisa saja bertujuan untuk mencari nilai tertinggi dari tree tersebut atau menambah nilai data pada tiap simpul yang terdapat pada tree. Berdasarkan urutan penjelajahannya, tree traversal terbagi 3 yaitu : <br> <b>1.Inorder Traversal</b>. <br> <b>2.Preorder Traversal</b>. <br> <b>3.Postorder Traversal</b>. <br>
 
+**Contoh:**
+```
+struct TreeNode {
+    int data;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+```
+Pada contoh di atas, data adalah nilai yang disimpan pada simpul, right adalah pointer yang menunjuk ke right child dan left adalah pointer yang menunjuk ke left child
+
 ----
 
 
