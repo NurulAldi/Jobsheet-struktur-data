@@ -248,7 +248,10 @@ Merge sort adalah salah satu algoritma pengurutan yang paling efisien. Hal ini d
 
 ### ⭒ Shell Sort
 
-Shell Sort adalah sebuah algoritma pengurutan data dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan, jarak interval diantara elemen akan semakin mengecil seiring semakin banyaknya pengulangan pengurutan yang dilakukan, Shell sort memiliki beberapa formula pengurutan, yaitu : <br> <br> <b>1.Shell's original sequence : N/2, N/4, ..., 1</b> <br><b>2.Knuth's increments : 1, 4, 13, ..., (3k-1)/2.</b> <br><b>3.Sedgewick's increments : 1, 8, 23, 77, 281, 1073, 4193, 16577...4j+1+ 3·2j+ 1.</b> <br>
+Shell Sort adalah sebuah algoritma pengurutan data dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan, jarak interval diantara elemen akan semakin mengecil seiring semakin banyaknya pengulangan pengurutan yang dilakukan, Shell sort memiliki beberapa formula pengurutan, yaitu : 
+<ul>
+1.Shell's original sequence : N/2, N/4, ..., 1 <br>2.Knuth's increments : 1, 4, 13, ..., (3k-1)/2. <br>3.Sedgewick's increments : 1, 8, 23, 77, 281, 1073, 4193, 16577...4j+1+ 3·2j+ 1.<br>
+</ul>
 
 <img src="asset/shell-sort.png">
 
@@ -289,7 +292,7 @@ Tree adalah struktur data yang berbentuk hierarki, Tree dapat dijelajahi dengan 
 
 <img src="asset/Tree.png">
 
-Tree Traversal adalah mengunjungi semua simpul yang terdapat pada tree, aktivitas mengunjungi semua simpul ini bisa saja bertujuan untuk mencari nilai tertinggi dari tree tersebut atau menambah nilai data pada tiap simpul yang terdapat pada tree. Berdasarkan urutan penjelajahannya, tree traversal terbagi 3 yaitu : <br> <b>1.Inorder Traversal</b>. <br> <b>2.Preorder Traversal</b>. <br> <b>3.Postorder Traversal</b>. <br>
+Tree Traversal adalah mengunjungi semua simpul yang terdapat pada tree, aktivitas mengunjungi semua simpul ini bisa saja bertujuan untuk mencari nilai tertinggi dari tree tersebut atau menambah nilai data pada tiap simpul yang terdapat pada tree. Berdasarkan urutan penjelajahannya, tree traversal terbagi 3 yaitu : <ul>1.Inorder Traversal. <br> 2.Preorder Traversal. <br> 3.Postorder Traversal. </ul> <br>
 
 **Contoh:**
 ```
