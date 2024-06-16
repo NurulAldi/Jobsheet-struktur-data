@@ -105,6 +105,8 @@ struct Person {
  
 Linked list merupakan salah satu struktur data yang memorinya dialokasikan secara dinamis, Linked list sendiri adalah sebuah data yang berupa simpul beralamat yang saling bertaut, setiap simpul bisa menyimpan data dalam tipe char, int, string dan tipe lainnya.<br>
 
+<img src="asset/Single-linked-list.png">
+
 **Contoh:**
 ```
 new_node->data = new_data;
@@ -120,10 +122,15 @@ new_node->next = (*head_ref);
 
 
 ### ⭒ Double Linked List
-Double Linked List merupakan linked list dengan dua pointer, jika linked list biasa/single linked list umumnya memiliki satu pointer untuk ke linked list selanjutnya, maka, double linked list memiliki dua pointer yang mana satu pointer lainnya ditujukan ke linked list sebelumnya.<br><br>
+Double Linked List merupakan linked list dengan dua pointer, jika linked list biasa/single linked list umumnya memiliki satu pointer untuk ke linked list selanjutnya, maka, double linked list memiliki dua pointer yang mana satu pointer lainnya ditujukan ke linked list sebelumnya.<br>
+
+
+<img src="asset/Double-linked-list.png">
+
 Double Linked List memiliki beberapa kelebihan lainnya jika dibandingkan dengan single linked list, yaitu : <br>
 ⭒ Operasi penghapusan lebih efisien menggunakan pointer yang menunjuk ke simpul yang akan dihapus. <br>
 ⭒ Dapat melakukan proses insert() yang lebih efisien dibandingkan single linked list.<br>
+
 
 **Contoh:**
 ```
@@ -142,14 +149,42 @@ struct Node {
  
 <code style="color : aquamarine;">Circular Linked List</code> dapat berupa single linked list atau double linked list tetapi circular linked list ini tidak mempunyai TAIL, sehingga pointer selanjutnya dari elemen terakhir mengarah kembali ke HEAD, jika circular linked list digunakan dalam bentuk double linked list, pointer sebelumnya dari HEAD akan menunjuk ke elemen terakhir. Hal inilah yang menyebabkan namanya menjadi Circular Linked List. <br>
 
+<img src="asset/Circular-linked-list.png">
+
+**Contoh:**
+```
+// deklarasi node menggunakan fungsi buatNode()
+Node* satu = buatNode(3);
+Node* dua = buatNode(5);
+Node* tiga = buatNode(9);
+
+// Connect nodes
+satu->next = dua;
+dua->next = tiga;
+tiga->next = satu; // node terakhir terhubung dengan node pertama
+```
+
 ----
 
 
 
 <h2><img src="asset/Jobsheet 6.png" id="jobsheet-06"></h2>
+
+### ⭒ Stack
  
-<code style="color : aquamarine;">Stack</code> merupakan kumpulan data, dimana data tersebut diletakkan di atas data yang lainnya. Oleh karena itu, stack menggunakan konsep <b>LIFO (Last In First Out)</b>, LIFO merupakan sebuah konsep pengaturan data dimana data yang paling terakhir masuk ke dalam stack adalah data yang pertama kali dikeluarkan dari stack. <br><br>
-Stack dapat dibuat dalam bentuk ouble Linked List ataupun Linked List, meskipun penggunaan stack dalam bentuk array dianggap kurang tepat karena array memiliki sifat statis sedangkan elemen stack sangat bervariasi dan dinamis, tetapi hal itu masih memungkinkan. Stack dengan array dapat dibuat dalam dua bentuk yaitu <code style="color : aquamarine;">Single Stack</code> dan <code style="color : aquamarine;">Double Stack</code> <br>
+Stack merupakan kumpulan data, dimana data tersebut diletakkan di atas data yang lainnya. Oleh karena itu, stack menggunakan konsep <b>LIFO (Last In First Out)</b>, LIFO merupakan sebuah konsep pengaturan data dimana data yang paling terakhir masuk ke dalam stack adalah data yang pertama kali dikeluarkan dari stack. <br>
+
+<img src="asset/ill-stack.png">
+
+Stack dapat dibuat dalam bentuk ouble Linked List ataupun Linked List, meskipun penggunaan stack dalam bentuk array dianggap kurang tepat karena array memiliki sifat statis sedangkan elemen stack sangat bervariasi dan dinamis, tetapi hal itu masih memungkinkan. Stack dengan array dapat dibuat dalam dua bentuk yaitu Single Stack dan Double Stack <br>
+
+**Fungsi Utama:**
+- `push()`: Menambahkan elemen baru ke puncak stack.
+- `pop()`: Menghapus dan mengembalikan elemen teratas dari stack.
+- `peek()`: Mengembalikan elemen teratas tanpa menghapusnya dari stack.
+- `isEmpty()`: Memeriksa apakah stack kosong.
+- `isFull()`: Memeriksa apakah stack penuh (jika menggunakan array dengan kapasitas tetap).
+
 
 ----
 
