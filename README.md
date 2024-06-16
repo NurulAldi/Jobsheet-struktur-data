@@ -1,4 +1,6 @@
 
+<h1><img src="asset/praktikum struktur data.png"></h1>
+
 
 <h2><img src="asset/Jobsheet 1.png"></h2>
 
